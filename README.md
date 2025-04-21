@@ -1,4 +1,4 @@
-Added security group control to original one https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/terraform
+Only difference is Added security group control to original one https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/terraform
 
 resource "google_compute_firewall" "gke_example" {
   name    = "allow-gke-ssh-http"
