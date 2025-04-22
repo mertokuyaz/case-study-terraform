@@ -37,7 +37,7 @@ module "enable_google_apis" {
 }
 
 # Create GKE cluster
-resource "google_container_cluster" "my_cluster" {
+resource "google_container_cluster" "autoscale_cluster" {
 
   name     = var.name
   location = var.region
